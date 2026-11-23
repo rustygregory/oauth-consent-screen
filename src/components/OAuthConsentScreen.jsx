@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 const Page = styled.div`
-  min-height: 100vh;
+  flex: 1;
+  min-height: 100%;
+  width: 100%;
   background: #ffffff;
   display: flex;
   flex-direction: column;
