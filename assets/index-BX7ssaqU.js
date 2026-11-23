@@ -892,14 +892,16 @@ Error generating stack: `+e.message+`
   }
 `,al=({size:e=12})=>(0,U.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:e,height:e,viewBox:`0 0 12 12`,"aria-hidden":`true`,focusable:`false`,children:(0,U.jsx)(`path`,{fill:`currentColor`,d:`M10.5 1.5v3.25a.5.5 0 0 1-1 0V2.707L5.354 6.854a.5.5 0 1 1-.708-.708L8.793 2H7.25a.5.5 0 0 1 0-1h3.25a.5.5 0 0 1 .5.5ZM2.5 2.5A1 1 0 0 0 1.5 3.5v6A1 1 0 0 0 2.5 10.5h6a1 1 0 0 0 1-1V7.25a.5.5 0 0 1 1 0V9.5a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2h2.25a.5.5 0 0 1 0 1H2.5Z`})});function ol(){return(0,U.jsxs)(Lc,{children:[(0,U.jsx)(Rc,{children:(0,U.jsx)(zc,{children:`zendesk`})}),(0,U.jsx)(Bc,{}),(0,U.jsxs)(Vc,{children:[(0,U.jsxs)(Hc,{children:[(0,U.jsxs)(Uc,{children:[(0,U.jsx)(Wc,{}),(0,U.jsxs)(Z,{children:[(0,U.jsx)(Gc,{children:`Acme Helpdesk Sync`}),(0,U.jsx)(Kc,{children:`by Acme Inc.`})]})]}),(0,U.jsx)(qc,{}),(0,U.jsx)(Q,{children:`Allow Acme Helpdesk Sync to access your Zendesk account?`}),(0,U.jsx)(Jc,{children:`Keeps tickets, users and organizations in sync between Acme Helpdesk and your Zendesk account.`}),(0,U.jsx)(Yc,{children:`This application would be able to`}),(0,U.jsx)(Xc,{children:(0,U.jsx)(`li`,{children:`Read all data.`})}),(0,U.jsxs)(Zc,{children:[(0,U.jsx)($c,{type:`button`,children:`Deny`}),(0,U.jsx)(el,{type:`button`,children:`Allow`})]})]}),(0,U.jsxs)(tl,{children:[(0,U.jsxs)(nl,{children:[`Not `,(0,U.jsx)(rl,{children:`jane.doe@example.com`}),`?`]}),(0,U.jsxs)(il,{href:`#sign-in`,children:[`Return to sign in`,(0,U.jsx)(al,{})]})]})]})]})}var sl=[`small`,`medium`,`large`],cl=I.div.attrs({"data-garden-id":`buttons.button_group_view`,"data-garden-version":`9.16.1`}).withConfig({displayName:`StyledSplitButton`,componentId:`sc-1u4v04v-0`})([`display:inline-flex;position:relative;z-index:0;direction:`,`;white-space:nowrap;`,`;`],e=>e.theme.rtl&&`rtl`,pr),ll=`buttons.icon`,ul=e=>{let t;return e.$position===`start`?t=`margin-${e.theme.rtl?`left`:`right`}`:e.$position===`end`&&(t=`margin-${e.theme.rtl?`right`:`left`}`),t&&zn([``,`:`,`px;`],t,e.theme.space.base*2)},dl=I(Ea).attrs({"data-garden-id":ll,"data-garden-version":`9.16.1`}).withConfig({displayName:`StyledIcon`,componentId:`sc-19meqgg-0`})([`transform:`,`;transition:transform 0.25s ease-in-out,color 0.25s ease-in-out;`,`;`,`;`],e=>e.$isRotated&&`rotate(${e.theme.rtl?`-`:`+`}180deg)`,e=>ul(e),pr),fl=e=>e.$isPill?`100px`:e.theme.borderRadii.md,pl=e=>e.$size===`small`?`${e.theme.space.base*8}px`:e.$size===`large`?`${e.theme.space.base*12}px`:`${e.theme.space.base*10}px`,ml=({theme:e,$isLink:t,$isBasic:n,$isDanger:r,$isNeutral:i,$isPrimary:a,$focusInset:o})=>{let s,c=V({theme:e,variable:`background.disabled`}),l=V({theme:e,variable:`foreground.disabled`}),u={dark:{offset:-100},light:{offset:100}},d={dark:{offset:-200},light:{offset:200}};if(t){let t={theme:e,variable:r?`foreground.danger`:`foreground.primary`},n=V(t),i=V({...t,...u}),a=V({...t,...d});s=zn([`outline-color:transparent;background-color:transparent;color:`,`;`,` &:hover{color:`,`;}&:active,&[aria-pressed='true'],&[aria-pressed='mixed']{color:`,`;}&:disabled{color:`,`;}`],n,Ta({theme:e,condition:!1,styles:{color:n,outlineColor:V({theme:e,variable:`border.primaryEmphasis`})}}),i,a,l)}else if(a){let t;t=r?`background.dangerEmphasis`:i?`background.emphasis`:`background.primaryEmphasis`;let n={theme:e,variable:t},a=V(n),f=V({...n,...u}),p=V({...n,...d});s=zn([`outline-color:transparent;background-color:`,`;color:`,`;&:hover{background-color:`,`;}`,` &:active,&[aria-pressed='true'],&[aria-pressed='mixed']{background-color:`,`;}&:disabled{background-color:`,`;color:`,`;}`],a,V({theme:e,variable:`foreground.onEmphasis`}),f,Ta({theme:e,inset:o,shadowWidth:o?`sm`:`md`,spacerWidth:o?`sm`:`xs`,styles:(r||i)&&o?{borderColor:V({theme:e,variable:`border.primaryEmphasis`})}:void 0}),p,c,l)}else{let t,a,f,p,m,h;if(r){if(!n){let n={theme:e,variable:`border.dangerEmphasis`};t=V(n),a=V({...n,...u}),f=V({...n,...d}),i&&(p=V(n))}m=`background.dangerEmphasis`,h=i?`foreground.default`:`foreground.danger`}else{if(!n){let n={theme:e,variable:`border.primaryEmphasis`};i?(t=V({theme:e,variable:`border.default`,...u}),a=V(n),p=a,f=V({...n,...u})):(t=V(n),a=V({...n,...u}),f=V({...n,...d}))}m=`background.primaryEmphasis`,h=i?`foreground.default`:`foreground.primary`}let g=V({theme:e,variable:m,transparency:e.opacity[100]}),_=V({theme:e,variable:m,transparency:e.opacity[200]}),v={theme:e,variable:h},y=V(v),b,x,S,C,w;if(i){let t={theme:e,variable:`foreground.subtle`};S=V(t),C=V({...t,...u}),w=V({...t,...d})}else b=V({...v,...u}),x=V({...v,...d});s=zn([`outline-color:transparent;border-color:`,`;background-color:transparent;color:`,`;&:hover{border-color:`,`;background-color:`,`;color:`,`;}`,` &:active,&[aria-pressed='true'],&[aria-pressed='mixed']{border-color:`,`;background-color:`,`;color:`,`;}&:disabled{border-color:transparent;background-color:`,`;color:`,`;}& `,`{color:`,`;}&:hover `,`,&:focus-visible `,`{color:`,`;}&:active `,`{color:`,`;}&:disabled `,`{color:`,`;}`],t,y,a,g,b,Ta({theme:e,inset:o,styles:{borderColor:p}}),f,_,x,c,l,dl,S,dl,dl,C,dl,w,dl,l)}return s},hl=({theme:e,$isPrimary:t,$isBasic:n,$isPill:r,$focusInset:i})=>{let{rtl:a,borderWidths:o,borders:s}=e,c=a?`right`:`left`,l=a?`left`:`right`,u=o.sm,d=`${t||n?``:`-`}${u}`,f=r&&`-2px`,p=!t&&V({theme:e,variable:`background.disabled`}),m=n?`transparent`:`revert`,h=V({theme:e,variable:`border.primaryEmphasis`}),g=n&&!t&&Ca({theme:e,inset:i,spacerColor:{hue:h},color:{hue:`transparent`}});return zn([`position:relative;transition:border-color 0.1s ease-in-out,background-color 0.1s ease-in-out,box-shadow 0.1s ease-in-out,color 0.1s ease-in-out,margin-`,` 0.1s ease-in-out,outline-color 0.1s ease-in-out,z-index 0.25s ease-in-out;border:`,` `,`;`,`{border-color:`,`;box-shadow:`,`;}&:hover,&:active,`,`{z-index:1;}&:disabled{z-index:-1;background-color:`,`;}&:not(:first-of-type){margin-`,`:`,`;}&:not(:first-of-type):disabled{margin-`,`:`,`;}&:not(:first-of-type):not(:last-of-type){border-radius:0;}&:first-of-type:not(:last-of-type){border-top-`,`-radius:0;border-bottom-`,`-radius:0;}&:last-of-type:not(:first-of-type){border-top-`,`-radius:0;border-bottom-`,`-radius:0;}&:first-of-type:not(:last-of-type) `,`{margin-`,`:`,`;}&:last-of-type:not(:first-of-type) `,`{margin-`,`:`,`;}`],c,s.sm,m,wa,h,g,wa,p,c,d,c,u,l,l,c,c,dl,l,f,dl,c,f)},gl=e=>{let t=e.$size===`small`?e.theme.iconSizes.sm:e.theme.iconSizes.md;return zn([`width:`,`;min-width:`,`;height:`,`;vertical-align:`,`;`],t,t,t,e.$isLink&&`middle`)},_l=e=>{let t;if(e.$isLink)t=zn([`padding:0;font-size:inherit;`]);else{let n=pl(e),r=ei(`${n} - (${e.theme.borderWidths.sm} * 2)`),i,a;e.$size===`small`?(a=e.theme.fontSizes.sm,i=`${e.theme.space.base*3}px`):(a=e.theme.fontSizes.md,i=e.$size===`large`?`${e.theme.space.base*5}px`:`${e.theme.space.base*4}px`),t=zn([`padding:0 `,`;height:`,`;line-height:`,`;font-size:`,`;`],ii(ei(`${i} - ${e.theme.borderWidths.sm}`),a),n,r,a)}return t},vl=I.button.attrs(e=>({"data-garden-id":e[`data-garden-id`]||`buttons.button`,"data-garden-version":`9.16.1`})).withConfig({displayName:`StyledButton`,componentId:`sc-qe3ace-0`})([`display:`,`;align-items:`,`;justify-content:`,`;transition:border-color 0.25s ease-in-out,box-shadow 0.1s ease-in-out,background-color 0.25s ease-in-out,color 0.25s ease-in-out,outline-color 0.1s ease-in-out,z-index 0.25s ease-in-out;margin:0;border:`,`;border-radius:`,`;cursor:pointer;width:`,`;overflow:hidden;text-decoration:`,`;text-overflow:ellipsis;white-space:`,`;font-family:inherit;font-weight:`,`;-webkit-font-smoothing:subpixel-antialiased;box-sizing:border-box;user-select:`,`;-webkit-touch-callout:none;`,`;&::-moz-focus-inner{border:0;padding:0;}`,`{text-decoration:none;}&:hover{text-decoration:`,`;}&:active,&[aria-pressed='true'],&[aria-pressed='mixed']{transition:border-color 0.1s ease-in-out,background-color 0.1s ease-in-out,box-shadow 0.1s ease-in-out,color 0.1s ease-in-out,outline-color 0.1s ease-in-out,z-index 0.25s ease-in-out;text-decoration:`,`;}`,`;&:disabled{cursor:default;text-decoration:`,`;}& `,`{`,`}`,` &&{`,`}`,``],e=>e.$isLink?`inline`:`inline-flex`,e=>!e.$isLink&&`center`,e=>!e.$isLink&&`center`,e=>`${e.$isLink?`0px solid`:e.theme.borders.sm} transparent`,e=>fl(e),e=>e.$isStretched?`100%`:``,e=>e.$isUnderlined?`underline`:`none`,e=>!e.$isLink&&`nowrap`,e=>e.$isLink?`inherit`:e.theme.fontWeights.regular,e=>!e.$isLink&&`none`,e=>_l(e),wa,e=>e.$isLink?`underline`:`none`,e=>e.$isLink?`underline`:`none`,e=>ml(e),e=>e.$isLink&&`none`,dl,e=>gl(e),cl,e=>hl(e),pr),yl=(0,g.createContext)(void 0),bl=()=>(0,g.useContext)(yl),xl=({isRotated:e,...t})=>g.createElement(dl,Object.assign({$position:`start`,$isRotated:e},t));xl.displayName=`Button.StartIcon`;var Sl=xl,Cl=({isRotated:e,...t})=>g.createElement(dl,Object.assign({$position:`end`,$isRotated:e},t));Cl.displayName=`Button.EndIcon`;var wl=Cl,Tl=c(Kn()),El=(0,g.forwardRef)(({focusInset:e,isBasic:t,isDanger:n,isLink:r,isNeutral:i,isPill:a,isPrimary:o,isStretched:s,size:c=`medium`,type:l=`button`,...u},d)=>{let f=bl();return g.createElement(vl,Object.assign({},u,{type:l,$focusInset:e||f,$isBasic:t,$isDanger:n,$isLink:r,$isNeutral:i,$isPill:a,$isPrimary:o,$isStretched:s,$isUnderlined:r,$size:c,ref:d}))});El.displayName=`Button`,El.propTypes={focusInset:Tl.default.bool,isBasic:Tl.default.bool,isDanger:Tl.default.bool,isLink:Tl.default.bool,isNeutral:Tl.default.bool,isPill:Tl.default.bool,isPrimary:Tl.default.bool,isStretched:Tl.default.bool,size:Tl.default.oneOf(sl)};var Dl=El;Dl.EndIcon=wl,Dl.StartIcon=Sl;var Ol=[{title:`Create, update, and delete data across Zendesk`,description:`Can create, change, and delete information through Zendesk APIs. This is broad access and may allow changes across many Zendesk resources.`},{title:`View data across Zendesk`,description:`Can view information available through Zendesk APIs, including tickets, users, organizations, Help Center content, and account settings. This is broad access and may include related records returned with other data.`},{title:`Create, edit, and delete tickets`,description:`Includes adding comments, adding and removing tags, merging tickets, marking tickets as spam, attaching uploaded files, managing ticket forms and custom statuses, and permanently deleting tickets.`},{title:`View account settings`,description:`Includes account configuration, ticket and user fields, and workspaces.`},{title:`View brands`,description:`Includes viewing brands and their agent assignments.`},{title:`View groups`,description:`Includes viewing groups and their memberships.`},{title:`View organizations and their details`,description:`Includes organization memberships, subscriptions, and merge history.`},{title:`View support requests`,description:`Includes submitted requests and their comments.`},{title:`View tickets`,description:`Includes ticket contents, comments and conversation history, tags, forms and fields, audits, events, and metrics.`},{title:`View users`,description:`Includes their identities, active sessions, group, organization, and brand memberships, roles, and settings.`}],kl=`#2f3130`,Al=`#646864`,jl=`#1f73b7`,Ml=`#144a75`,Nl=`M11.376 24L10.776 23.544L10.44 22.8L10.776 21.312L11.16 19.392L11.472 17.856L11.76 15.96L11.928 15.336L11.904 15.288L11.784 15.312L10.344 17.28L8.16 20.232L6.432 22.056L6.024 22.224L5.304 21.864L5.376 21.192L5.784 20.616L8.16 17.568L9.6 15.672L10.536 14.592L10.512 14.448H10.464L4.128 18.576L3 18.72L2.496 18.264L2.568 17.52L2.808 17.28L4.704 15.96L9.432 13.32L9.504 13.08L9.432 12.96H9.192L8.4 12.912L5.712 12.84L3.384 12.744L1.104 12.624L0.528 12.504L0 11.784L0.048 11.424L0.528 11.112L1.224 11.16L2.736 11.28L5.016 11.424L6.672 11.52L9.12 11.784H9.504L9.552 11.616L9.432 11.52L9.336 11.424L6.96 9.84L4.416 8.16L3.072 7.176L2.352 6.672L1.992 6.216L1.848 5.208L2.496 4.488L3.384 4.56L3.6 4.608L4.488 5.304L6.384 6.768L8.88 8.616L9.24 8.904L9.408 8.808V8.736L9.24 8.472L7.896 6.024L6.456 3.528L5.808 2.496L5.64 1.872C5.576 1.656 5.544 1.416 5.544 1.152L6.288 0.144001L6.696 0L7.704 0.144001L8.112 0.504001L8.736 1.92L9.72 4.152L11.28 7.176L11.736 8.088L11.976 8.904L12.072 9.168H12.24V9.024L12.36 7.296L12.6 5.208L12.84 2.52L12.912 1.752L13.296 0.840001L14.04 0.360001L14.616 0.624001L15.096 1.32L15.024 1.752L14.76 3.6L14.184 6.504L13.824 8.472H14.04L14.28 8.208L15.264 6.912L16.92 4.848L17.64 4.032L18.504 3.12L19.056 2.688H20.088L20.832 3.816L20.496 4.992L19.44 6.336L18.552 7.464L17.28 9.168L16.512 10.536L16.584 10.632H16.752L19.608 10.008L21.168 9.744L22.992 9.432L23.832 9.816L23.928 10.2L23.592 11.016L21.624 11.496L19.32 11.952L15.888 12.768L15.84 12.792L15.888 12.864L17.424 13.008L18.096 13.056H19.728L22.752 13.272L23.544 13.8L24 14.424L23.928 14.928L22.704 15.528L21.072 15.144L17.232 14.232L15.936 13.92H15.744V14.016L16.848 15.096L18.84 16.896L21.36 19.224L21.48 19.8L21.168 20.28L20.832 20.232L18.624 18.552L17.76 17.808L15.84 16.2H15.72V16.368L16.152 17.016L18.504 20.544L18.624 21.624L18.456 21.96L17.832 22.176L17.184 22.056L15.792 20.136L14.376 17.952L13.224 16.008L13.104 16.104L12.408 23.352L12.096 23.712L11.376 24Z`,Pl=I.div`
   flex: 1;
-  min-height: 100%;
+  min-height: 0;
+  height: 100%;
   width: 100%;
   box-sizing: border-box;
-  padding: 48px 32px;
+  padding: ${48}px 32px;
   background: #f8f9f9;
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  overflow: hidden;
   font-family:
     system-ui,
     -apple-system,
@@ -912,12 +914,15 @@ Error generating stack: `+e.message+`
 `,Fl=I.section`
   width: 100%;
   max-width: 1080px;
-  margin-top: 8px;
+  max-height: 800px;
+  margin-top: 0;
   background: #ffffff;
   border: 1px solid #d8dcde;
   border-radius: 16px;
   box-sizing: border-box;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 4px 24px rgba(47, 57, 65, 0.06);
 `,Il=I.header`
   display: flex;
@@ -925,6 +930,7 @@ Error generating stack: `+e.message+`
   gap: 12px;
   padding: 20px 48px;
   border-bottom: 1px solid #d8dcde;
+  flex-shrink: 0;
 `,Ll=I.span`
   font-size: 18px;
   font-weight: 700;
@@ -943,14 +949,18 @@ Error generating stack: `+e.message+`
 `,zl=I.div`
   display: grid;
   grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.2fr);
-  align-items: start;
+  align-items: stretch;
   column-gap: 64px;
-  padding: 40px 48px 40px;
+  padding: 40px 48px 0;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 
   @media (max-width: 860px) {
     grid-template-columns: 1fr;
-    row-gap: 32px;
-    padding: 28px 24px 28px;
+    grid-template-rows: auto minmax(0, 1fr);
+    row-gap: 24px;
+    padding: 28px 24px 0;
   }
 `,Bl=I.div`
   display: flex;
@@ -959,12 +969,22 @@ Error generating stack: `+e.message+`
   justify-content: flex-start;
   gap: 20px;
   min-width: 0;
+  /* Stays fixed — does not scroll with the right column. */
+  overflow: hidden;
 `,Vl=I.div`
   display: flex;
   flex-direction: column;
   align-items: stretch;
   min-width: 0;
+  min-height: 0;
+  overflow: hidden;
 `,Hl=I.div`
+  flex: 1;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 8px;
+`,Ul=I.div`
   width: 32px;
   height: 32px;
   flex-shrink: 0;
@@ -975,7 +995,7 @@ Error generating stack: `+e.message+`
     width: 32px;
     height: 32px;
   }
-`,Ul=()=>(0,U.jsx)(Hl,{"aria-hidden":`true`,children:(0,U.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,viewBox:`0 0 24 24`,width:`32`,height:`32`,children:(0,U.jsx)(`path`,{fill:`#D97757`,d:Nl})})}),Wl=I.h1`
+`,Wl=()=>(0,U.jsx)(Ul,{"aria-hidden":`true`,children:(0,U.jsx)(`svg`,{xmlns:`http://www.w3.org/2000/svg`,viewBox:`0 0 24 24`,width:`32`,height:`32`,children:(0,U.jsx)(`path`,{fill:`#D97757`,d:Nl})})}),Gl=I.h1`
   margin: 0;
   max-width: 16ch;
   font-size: 28px;
@@ -988,13 +1008,13 @@ Error generating stack: `+e.message+`
     max-width: none;
     font-size: 22px;
   }
-`,Gl=I.div`
+`,Kl=I.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px 10px;
   margin-top: 8px;
-`,Kl=I.div`
+`,ql=I.div`
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -1006,11 +1026,11 @@ Error generating stack: `+e.message+`
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-`,ql=I.span`
+`,Jl=I.span`
   font-size: 14px;
   font-weight: 400;
   color: ${kl};
-`,Jl=I.a`
+`,Yl=I.a`
   font-size: 14px;
   font-weight: 400;
   color: ${jl};
@@ -1020,40 +1040,40 @@ Error generating stack: `+e.message+`
     color: ${Ml};
     text-decoration: underline;
   }
-`,Yl=I.h2`
+`,Xl=I.h2`
   margin: 0 0 12px;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
   color: ${kl};
-`,Xl=I.ul`
+`,Zl=I.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-`,Zl=I.li`
+`,Ql=I.li`
   padding: 14px 0;
   border-bottom: 1px solid #d8dcde;
-`,Ql=I.div`
+`,$l=I.div`
   margin: 0 0 4px;
   font-size: 14px;
   font-weight: 600;
   color: ${kl};
   line-height: 1.4;
-`,$l=I.p`
+`,eu=I.p`
   margin: 0;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.45;
   color: ${Al};
-`,eu=I.div`
+`,tu=I.div`
   margin-top: 28px;
-`,tu=I.h3`
+`,nu=I.h3`
   margin: 0 0 8px;
   font-size: 14px;
   font-weight: 600;
   color: ${kl};
   line-height: 1.4;
-`,nu=I.p`
+`,ru=I.p`
   margin: 0 0 10px;
   font-size: 13px;
   font-weight: 400;
@@ -1068,19 +1088,25 @@ Error generating stack: `+e.message+`
       color: ${Ml};
     }
   }
-`,ru=I.p`
+`,iu=I.p`
   margin: 0;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
   color: ${Al};
-`,iu=I.div`
+`,au=I.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 12px;
-  margin-top: 32px;
-`,au=I(Dl).attrs({isPill:!0,size:`medium`})`
+  flex-shrink: 0;
+  padding: 32px 0 40px;
+  background: #ffffff;
+
+  @media (max-width: 860px) {
+    padding: 24px 0 28px;
+  }
+`,ou=I(Dl).attrs({isPill:!0,size:`medium`})`
   &&& {
     border: 1px solid #68737d;
     box-shadow: none;
@@ -1100,7 +1126,7 @@ Error generating stack: `+e.message+`
       color: ${kl};
     }
   }
-`,ou=I(Dl).attrs({isPrimary:!0,isPill:!0,size:`medium`})`
+`,su=I(Dl).attrs({isPrimary:!0,isPill:!0,size:`medium`})`
   &&& {
     background-color: #2f3941;
     border-color: #2f3941;
@@ -1112,17 +1138,17 @@ Error generating stack: `+e.message+`
       color: #ffffff;
     }
   }
-`;function su(){return(0,U.jsx)(Pl,{children:(0,U.jsxs)(Fl,{children:[(0,U.jsxs)(Il,{children:[(0,U.jsx)(Ll,{children:`zendesk`}),(0,U.jsx)(Rl,{"aria-hidden":`true`}),(0,U.jsx)($,{children:`Sign in with Zendesk`})]}),(0,U.jsxs)(zl,{children:[(0,U.jsxs)(Bl,{children:[(0,U.jsx)(Ul,{}),(0,U.jsx)(Wl,{children:`Claude wants to access your Zendesk account`}),(0,U.jsxs)(Gl,{children:[(0,U.jsx)(Kl,{"aria-hidden":`true`,children:`JR`}),(0,U.jsx)(ql,{children:`jordan.reyes@example.com`}),(0,U.jsx)(Jl,{href:`#not-you`,children:`Not you?`})]})]}),(0,U.jsxs)(Vl,{children:[(0,U.jsx)(Yl,{children:`Select what Claude can access`}),(0,U.jsx)(Xl,{children:Ol.map(e=>(0,U.jsxs)(Zl,{children:[(0,U.jsx)(Ql,{children:e.title}),(0,U.jsx)($l,{children:e.description})]},e.title))}),(0,U.jsxs)(eu,{children:[(0,U.jsx)(tu,{children:`Make sure you trust Claude`}),(0,U.jsxs)(nu,{children:[`Review Claude's `,(0,U.jsx)(`a`,{href:`#privacy`,children:`Privacy Policy`}),` and`,` `,(0,U.jsx)(`a`,{href:`#terms`,children:`Terms of Service`}),` to understand how Anthropic will process and protect your data. You can manage or revoke access anytime in`,` `,(0,U.jsx)(`a`,{href:`#admin-center`,children:`Admin Center`}),`.`]}),(0,U.jsx)(ru,{children:`By allowing access, you agree to share selected data with Anthropic. Zendesk isn't responsible for third-party app use of your data. After you respond, you'll be redirected to claude.ai.`})]}),(0,U.jsxs)(iu,{children:[(0,U.jsx)(au,{type:`button`,children:`Cancel`}),(0,U.jsx)(ou,{type:`button`,children:`Allow access`})]})]})]})]})})}var cu=[{id:`v1`,label:`V1`,description:`Current`},{id:`v2`,label:`V2`,description:`Redesign`}],lu=I.div`
+`;function cu(){return(0,U.jsx)(Pl,{children:(0,U.jsxs)(Fl,{children:[(0,U.jsxs)(Il,{children:[(0,U.jsx)(Ll,{children:`zendesk`}),(0,U.jsx)(Rl,{"aria-hidden":`true`}),(0,U.jsx)($,{children:`Sign in with Zendesk`})]}),(0,U.jsxs)(zl,{children:[(0,U.jsxs)(Bl,{children:[(0,U.jsx)(Wl,{}),(0,U.jsx)(Gl,{children:`Claude wants to access your Zendesk account`}),(0,U.jsxs)(Kl,{children:[(0,U.jsx)(ql,{"aria-hidden":`true`,children:`JR`}),(0,U.jsx)(Jl,{children:`jordan.reyes@example.com`}),(0,U.jsx)(Yl,{href:`#not-you`,children:`Not you?`})]})]}),(0,U.jsxs)(Vl,{children:[(0,U.jsxs)(Hl,{children:[(0,U.jsx)(Xl,{children:`Select what Claude can access`}),(0,U.jsx)(Zl,{children:Ol.map(e=>(0,U.jsxs)(Ql,{children:[(0,U.jsx)($l,{children:e.title}),(0,U.jsx)(eu,{children:e.description})]},e.title))}),(0,U.jsxs)(tu,{children:[(0,U.jsx)(nu,{children:`Make sure you trust Claude`}),(0,U.jsxs)(ru,{children:[`Review Claude's `,(0,U.jsx)(`a`,{href:`#privacy`,children:`Privacy Policy`}),` and`,` `,(0,U.jsx)(`a`,{href:`#terms`,children:`Terms of Service`}),` to understand how Anthropic will process and protect your data. You can manage or revoke access anytime in`,` `,(0,U.jsx)(`a`,{href:`#admin-center`,children:`Admin Center`}),`.`]}),(0,U.jsx)(iu,{children:`By allowing access, you agree to share selected data with Anthropic. Zendesk isn't responsible for third-party app use of your data. After you respond, you'll be redirected to claude.ai.`})]})]}),(0,U.jsxs)(au,{children:[(0,U.jsx)(ou,{type:`button`,children:`Cancel`}),(0,U.jsx)(su,{type:`button`,children:`Allow access`})]})]})]})]})})}var lu=[{id:`v1`,label:`V1`,description:`Current`},{id:`v2`,label:`V2`,description:`Redesign`}],uu=I.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
   min-height: 100vh;
   overflow: hidden;
-`,uu=I.div`
+`,du=I.div`
   flex: 1;
   min-height: 0;
   overflow: auto;
   display: flex;
   flex-direction: column;
-`;function du(){let[e,t]=(0,g.useState)(`v2`),[n,r]=(0,g.useState)(null),[i,a]=(0,g.useState)(!1),[o,s]=(0,g.useState)(null);return(0,U.jsx)(fr,{children:(0,U.jsxs)(lu,{children:[(0,U.jsx)(xo,{title:`OAuth Consent Screen`,meta:`Started Sept 2026`,versions:cu,versionId:e,onVersionChange:t,inspectSlotRef:r,commentSlotRef:s,inspectActive:i}),(0,U.jsx)(uu,{"data-comment-root":`true`,"data-inspect-root":`true`,children:e===`v2`?(0,U.jsx)(su,{}):(0,U.jsx)(ol,{})}),(0,U.jsx)(vs,{toggleContainer:n,onActiveChange:a}),(0,U.jsx)(jc,{toggleContainer:o,context:{version:e},onRestoreContext:e=>{e.version&&t(e.version)}})]})})}(0,_.createRoot)(document.getElementById(`root`)).render((0,U.jsx)(g.StrictMode,{children:(0,U.jsx)(du,{})}));
+`;function fu(){let[e,t]=(0,g.useState)(`v2`),[n,r]=(0,g.useState)(null),[i,a]=(0,g.useState)(!1),[o,s]=(0,g.useState)(null);return(0,U.jsx)(fr,{children:(0,U.jsxs)(uu,{children:[(0,U.jsx)(xo,{title:`OAuth Consent Screen`,meta:`Started Sept 2026`,versions:lu,versionId:e,onVersionChange:t,inspectSlotRef:r,commentSlotRef:s,inspectActive:i}),(0,U.jsx)(du,{"data-comment-root":`true`,"data-inspect-root":`true`,children:e===`v2`?(0,U.jsx)(cu,{}):(0,U.jsx)(ol,{})}),(0,U.jsx)(vs,{toggleContainer:n,onActiveChange:a}),(0,U.jsx)(jc,{toggleContainer:o,context:{version:e},onRestoreContext:e=>{e.version&&t(e.version)}})]})})}(0,_.createRoot)(document.getElementById(`root`)).render((0,U.jsx)(g.StrictMode,{children:(0,U.jsx)(fu,{})}));
